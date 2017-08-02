@@ -1,4 +1,10 @@
 .projects-main {
-  height: 200px;
+  padding: 5% 10%;
   background-color: #ffcc5c;
+  text-align: left;
+}
+
+.projects-inner {
+  border: 1px solid green;
+  padding: 0 10% 0 10%;
 }
