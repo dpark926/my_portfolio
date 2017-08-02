@@ -8,7 +8,6 @@ function NavBar() {
       <div className="navbar-name">
         <div className="navbar-header">
           <h3>DANIEL PARK</h3>
-          <span className="icon fa-html5"></span>
           <i className="fa fa-camera-retro"></i>
         </div>
       </div>
