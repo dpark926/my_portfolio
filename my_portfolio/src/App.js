@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js'
 import Profile from './components/Profile.js'
-import Skills from './components/Skills.js'
+import Education from './components/Education.js'
 import Resume from './components/Resume.js'
+import Skills from './components/Skills.js'
 import Projects from './components/Projects.js'
 
 class App extends Component {
@@ -17,9 +19,11 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p> */}
+        <NavBar/>
         <Profile/>
-        <Skills/>
+        <Education />
         <Resume/>
+        <Skills/>
         <Projects/>
       </div>
     );
