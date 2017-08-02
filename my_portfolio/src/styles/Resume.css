@@ -1,4 +1,13 @@
 .resume-main {
-  height: 200px;
+  padding: 5% 10%;
   background-color: #ff6f69;
+  text-align: left;
+}
+
+.resume-inner {
+  border: 1px solid yellow;
+  padding: 0 10% 0 10%;
+}
+
+.resume-job-details {
 }
